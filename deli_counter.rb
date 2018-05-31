@@ -10,4 +10,5 @@ def line(array)
             message2 + (index + 1).to_s + ". " + name
         }
         puts message + message2
+    end
 end
