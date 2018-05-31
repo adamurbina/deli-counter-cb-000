@@ -7,7 +7,7 @@ def line(array)
         message = "The line is currently: "
         message2 = ""
         array.each_with_index { |name , index|
-            message2 + (index + 1).to_s + ". " + name
+            message2 = message2 + (index + 1).to_s + ". " + name
         }
         puts message + message2
     end
