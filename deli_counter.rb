@@ -11,3 +11,7 @@ def line(array)
         puts "The line is currently:" + lineNames
     end
 end
+
+def take_a_number(array, name)
+    array << name
+end
