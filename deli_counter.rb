@@ -9,4 +9,5 @@ def line(array)
         array.each_with_index { |name , index|
             message2 + (index + 1).to_s + ". " + name
         }
+        puts message + message2
 end
